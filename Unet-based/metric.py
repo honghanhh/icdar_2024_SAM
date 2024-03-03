@@ -53,10 +53,8 @@ def udiads_evaluate(result_directory, gt_directory):
     return iou_sc
 
 result = []
-#for DS in ["./Latin2FS", "./Latin14396FS", "./Latin16746FS", "./Syr341FS"]:
-for DS in ["./Latin16746FS"]:
-
-    res = udiads_evaluate(result_directory=f"{DS}/result-512x512_aug-refinedbinary", gt_directory=f"{DS}/gt")
+for DS in ["./Latin2FS", "./Latin14396FS", "./Latin16746FS", "./Syr341FS"]:
+    res = udiads_evaluate(result_directory=f"{DS}/result", gt_directory=f"{DS}/gt")
     result.append(res)
 
 print(f"############## Final Scores ##############")
