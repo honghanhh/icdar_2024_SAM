@@ -12,11 +12,12 @@ In this repo, we provide our solution to solve two subtasks of [International Co
 
 ## <a name="data_format"></a>Datasets
 
-The datasets can be accessed at [here]().
+The datasets can be accessed at [here](./U-DIADS-Bib-FS).
 
 ## <a name="models"></a>Models
 
-(updating)
+We follow the proposed architecture in Rahai et al. (2023), which is L-U-Net-based architecture with a three-step procedure.
+The details of the experiment setups are shown in the report. 
 
 ## <a name="contributors"></a>Contributors
 
