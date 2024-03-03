@@ -53,7 +53,7 @@ def udiads_evaluate(result_directory, gt_directory):
     return iou_sc
 
 result = []
-for DS in ["Latin2FS", "Latin14396FS", "Latin16746FS", "Syr341FS"]:
+for DS in ["./Latin14396FS", "./Syr341FS", "./Latin2FS", "./Latin16746FS"]:
     res = udiads_evaluate(result_directory=f"/content/icdar_2024_SAM/Unet-based/{DS}/result", gt_directory=f"/content/icdar_2024_SAM/Unet-based/{DS}/gt")
     result.append(res)
 
